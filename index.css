@@ -1,0 +1,26 @@
+html{background-color:hsl(30, 54%, 90%)}
+body{width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+#image-1{width: 100%;
+border-radius: 10px;}
+#main-div{background-color: rgb(255, 255, 255);
+justify-self: center;
+border-radius: 20px;
+padding: 20px;
+}
+.div-1 li::marker,h3{color: hsl(332, 51%, 32%);}
+.div-1{background-color: hsl(330, 100%, 98%);
+padding: 10px;}
+.div-2 li::marker,h2,h4{color:#80442e;}
+.art-2 li::marker{color: hsl(14, 45%, 36%);}
+.grid-div{display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: repeat(4,auto);
+}
+span{font-weight: bold;}
+p{font-size: 16px;}
+h1{font-family: serif;}
+li{list-style: square;}
